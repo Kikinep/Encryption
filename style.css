@@ -1,0 +1,54 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+main {
+    display: flex;
+}
+
+.texto {
+    text-transform: lowercase;
+    width: 200px;
+    height: 400px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 15px;
+}
+
+.texto:focus {
+    outline: none;
+}
+
+.conjunto-original {
+    margin-left: 100px;
+    margin-right: 500px;
+}
+
+.remix:before {
+    content: "ⓘ ";
+}
+
+.boton {
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    color: yellow;
+    border-color: yellow;
+    border-radius: 80px;
+}
+
+#copiar {
+    margin-top: 50px;
+}
+
+.boton:active {
+    background-color: rgb(163, 44, 0);
+    color: rgb(156, 156, 0);
+    border-color: rgb(156, 156, 0);;
+}
